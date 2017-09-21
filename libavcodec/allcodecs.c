@@ -631,6 +631,7 @@ static void register_all(void)
     REGISTER_DECODER(LIBRSVG,           librsvg);
     REGISTER_ENCODER(LIBSHINE,          libshine);
     REGISTER_ENCDEC (LIBSPEEX,          libspeex);
+    REGISTER_DECODER(LIBSTAGEFRIGHT_H264, libstagefright_h264);
     REGISTER_ENCODER(LIBTHEORA,         libtheora);
     REGISTER_ENCODER(LIBTWOLAME,        libtwolame);
     REGISTER_ENCODER(LIBVO_AMRWBENC,    libvo_amrwbenc);
